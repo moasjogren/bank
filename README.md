@@ -45,18 +45,14 @@ Här kan man se sitt saldo och sätta in pengar på kontot. För att göra detta
 
 ## Hur du klarar uppgiften
 
-1. Klona detta repo
-2. Kolla in frontend-mappen som innehåller komplett kod till uppgiften gjord i React och React Router. Du är fri att ändra om du vill ha annan layout / struktur.
+1. Klona detta repo https://github.com/chasacademy-sandra-larsson/setup-nodejs-express-ts-project
+3. Gå till ```cd frontend``` som innehåller komplett kod till uppgiften gjord i React och React Router. Du är fri att ändra om du vill ha annan layout / struktur.
 
 
 ### Skapa backend
 
-1. Skapa en folder i roten: backend och gå med `cd` in i foldern.
-1. Skriv `npm init` och tryck Enter på alla frågor.
-1. Lägg till `"type": "module"`i package.json
-1. I scripts i package.json lägg till: `"start": "nodemon server.js"`
-1. Installera dependencies: `npm i express cors body-parser`
-1. Börja skriva kod i `server.js`
+1. ```npm install```
+2. Börja skriva kod i `src/index.ts`
 
 ### Endpoints och arrayer
 
