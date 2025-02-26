@@ -75,14 +75,13 @@ Här kan man se sitt saldo och sätta in pengar på kontot. För att göra detta
 
 ```
 import express from 'express';
-import bodyParser from 'body-parser';
 import cors from 'cors';
 
 const app = express();
 
 // Middleware
 app.use(cors());
-app.use(bodyParser.json());
+app.use(express.json());
 
 // Generera engångslösenord
 function generateOTP() {
